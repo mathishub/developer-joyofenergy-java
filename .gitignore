@@ -6,6 +6,20 @@
 .idea
 *.iml
 
+# eclipse specific git ignore
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+local.properties
+.classpath
+.settings/
+.loadpath
+
 # User-specific stuff:
 .idea/**/workspace.xml
 .idea/**/tasks.xml
